@@ -1,6 +1,6 @@
 // Importamos la función para redireccionar al usuario
 import { redirect } from 'next/navigation'
-// Importamos el cliente de Supabase configurado para el servidor
+// Importamos el cliente de Supabase configurado para el servidor.
 import { createClient } from '@/lib/supabase/server'
 
 export default function LoginPage({
